@@ -58,7 +58,7 @@ function createModal(url) {
 
 function OnModalCloseEsc(evt) {
      
-        if (e.code === 'Escape') {
+        if (evt.code === 'Escape') {
             instance.close();              
         } 
         
